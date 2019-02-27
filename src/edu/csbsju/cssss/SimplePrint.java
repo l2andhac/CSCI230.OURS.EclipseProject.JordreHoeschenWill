@@ -10,16 +10,16 @@ package edu.csbsju.cssss;
 public class SimplePrint {
 
 	/**
-	 * @param pName
+	 * @param pname
 	 * @param pAge
 	 */
-	public SimplePrint(String pName, int pAge) {
+	public SimplePrint(String pname, int pAge) {
 		super();
-		this.pName = pName;
+		this.pname = pname;
 		this.pAge = pAge;
 	}
 
-	private String pName;
+	private String pname;
 	private int pAge;
 	/**
 	 * 
@@ -31,15 +31,15 @@ public class SimplePrint {
 	/**
 	 * @return the pName
 	 */
-	public String getpName() {
-		return pName;
+	public String getpname() {
+		return pname;
 	}
 
 	/**
 	 * @param pName the pName to set
 	 */
-	public void setpName(String pName) {
-		this.pName = pName;
+	public void setpname(String pname) {
+		this.pname = pname;
 	}
 
 	/**
